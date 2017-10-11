@@ -1,5 +1,6 @@
 import junit.framework.TestCase;
 
+
 public class ListArrayTest extends TestCase {
   public void testArrayAdd() {
     ListArray la = new ListArray();
