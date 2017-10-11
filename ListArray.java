@@ -30,6 +30,8 @@ class ListArray<E> implements IList<E> {
     return true;
   }
   
+  // -> int
+  // returns the element in the specific index
   int indexOf(E item) {
     for (int i = 0; i < this.size; i++) {
       if (item.equals(items[i])) {
